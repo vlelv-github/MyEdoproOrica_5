@@ -42,6 +42,7 @@ function s.initial_effect(c)
     end)
 end
 s.listed_names={CARD_JINZO}
+s.listed_series = {SET_JINZO}
 
 function s.setop(e,tp,eg,ep,ev,re,r,rp)
     if s[0]:GetCount()>0 then return end

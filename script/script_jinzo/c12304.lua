@@ -22,7 +22,8 @@ function s.initial_effect(c)
     e2:SetOperation(s.e2op)
     c:RegisterEffect(e2)
 end
-
+s.listed_names = {CARD_JINZO}
+s.listed_series = {SET_JINZO}
 function s.costfilter(c)
 	return c:IsTrap() and c:IsAbleToGraveAsCost()
 end
